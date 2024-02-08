@@ -34,4 +34,11 @@ export class UncommonPageComponent {
     this.clients.pop();
   }
 
+  // KeyValue pipe
+  public person = {
+    name: 'Nandier',
+    age: 21,
+    address: 'Toronto, Canada'
+  }
+
 }
